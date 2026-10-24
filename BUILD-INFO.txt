@@ -1,0 +1,8 @@
+Build provenance
+Base: https://github.com/Miodec/deej
+Revision: 3aa3cd85c8205b6f4e72dfc7c09daeee84c265eb
+Fix: Windows MinimumReadSize=1 (source/pkg/deej/serial.go)
+Regression tests: source/pkg/deej/serial_test.go
+Toolchain: Go 1.20.14, windows/amd64; release mode, windowsgui
+Test: go test ./pkg/deej (passed)
+Hardware test: COM3, 9600 baud, CH340 3.9.2024.09; four sliders and three buttons detected; slider and mapped button events observed.

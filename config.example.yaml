@@ -1,0 +1,14 @@
+# Generic example; customize for your hardware and workflow.
+slider_mapping:
+  0: master
+  1: chrome.exe
+  2: discord.exe
+  3: deej.unmapped
+button_mapping:
+  0: 4219
+  1: 4220
+  2: 4221
+invert_sliders: false
+com_port: COM3
+baud_rate: 9600
+noise_reduction: low
